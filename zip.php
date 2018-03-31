@@ -58,6 +58,8 @@ foreach($_POST['category'] as $category){
             $decision_desc = $decision['desc'];
             $decision_image = checkImage($decision['img'], $decision_id);
 
+            $file_contents .= "\r\n"."#Decision for: ".$decision_title."\r\n";
+
             $lang_file_contents .= $decision_id.':0 "'.$decision_title.'"'."\r\n";
             $lang_file_contents .= $decision_id.'_desc:0 "'.$decision_desc.'"'."\r\n";
             
@@ -87,7 +89,7 @@ foreach($_POST['category'] as $category){
                             }
                         }else{
                             if(!empty($value)){
-                                $file_contents .= $name." = {\r\n".$value."\r\n}";
+                                $file_contents .= $name." = {\r\n".$value."\r\n}\r\n";
                             }
                         }
                     }

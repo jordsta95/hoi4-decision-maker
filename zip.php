@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['unique-id'])){
-    $file_id = $_POST['unique-id'];
+    $file_id = strtolower(preg_replace("/[^a-zA-Z_0-9 ]/", '',$_POST['unique-id']);
 }else{
     $file_id = 'unnamed';
 }

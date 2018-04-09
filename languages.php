@@ -66,7 +66,7 @@ $lang = array(
 		"help_out" => array(
 			"title" => "Help Out",
 			"coding" => "Help out with coding",
-			"coding_text" => "Helping with coding could make the tool grow and evolve much faster, if you understand Javascript/jQuery and/or PHP, as well as basic CSS and HTML you may be able help out.\nThe code behind this tool is available <a href=\"https://github.com/jordsta95/hoi4-decison-maker/\">on GitHub</a>",
+			"coding_text" => "Helping with coding could make the tool grow and evolve much faster, if you understand Javascript/jQuery and/or PHP, as well as basic CSS and HTML you may be able help out.\nThe code behind this tool is available <a href=\"https://github.com/jordsta95/hoi4-decision-maker/\">on GitHub</a>",
 			"translate" => "Know another language?",
 			"translate_text" => "Help by expanding this tool's reach, by localising it for people who do not understand English", // Note for translators, feel free to put a shoutout to yourself here, e.g. "... like MyNameHere did, who is awesome. Follow them on Twitter: @MyNameHere"
 			"beg" => "Help keep the site running",
